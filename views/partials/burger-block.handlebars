@@ -1,6 +1,16 @@
-<li>
-    {{id}}.{{burger_name}}
-    <button class="change-devour btn btn-danger" data-id="{{id}}" data-newDevour="{{devoured}}">
-        Devour!!
+<li class="list-group-item">
+<div class="container">
+    <div class="row">
+        <div class="col">
+        <span>{{id}}.{{burger_name}}</span>
+        </div>
+    {{#if devoured}}
+    <button class="change-devour btn btn-danger" data-id="{{id}}"  data-newDevour="{{devoured}}">
+        Devour!!<i class='fas fa-hamburger'></i>
     </button>
+    {{else}}
+     <button class="change-devour btn" data-id="{{id}}"  data-newDevour="{{devoured}}" >
+    </button>
+    {{/if}}
+</div>
 </li>

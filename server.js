@@ -1,8 +1,9 @@
 var express = require("express");
-
 var app = express();
 
 var PORT = process.env.PORT || 8080;
+
+app.use(express.static(__dirname + "/public"));
 
 //Sets handlebars
 var exphbs = require("express-handlebars");
@@ -16,7 +17,7 @@ app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
 //Import routes & gives the server access to the routes
-var routes = require("./controllers/burgers_controller");
+var routes = require("./controllers/burgers_controller.js");
 
 app.use(routes);
 
