@@ -2,6 +2,8 @@
 
 # Live Site
 
+https://fringuante-moliere-60605.herokuapp.com/
+
 ## Description
 
 Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
@@ -29,7 +31,7 @@ Created a repo which included a gitignore. Ran npm init, npm install express,npm
 
 ## Credits
 
-Activity: CatsApp, QuotesApp, YouTube, Google Fu, Stack Overflow, MYSQL Documentation, W3Schools, TAs, Bootcamp Instructor.
+Activity: CatsApp, QuotesApp, YouTube, Google Fu, Stack Overflow, MYSQL Documentation, W3Schools, Pixabay, TAs, Bootcamp Instructor.
 
 ## License
 
