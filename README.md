@@ -16,6 +16,8 @@ This app will store every burger in a database,weather devoured or not.
 
 ## Image
 
+![site image](./public/assets/img/image2.JPG)
+
 ## Table of Contents
 
 - [Installation](#Installation)
