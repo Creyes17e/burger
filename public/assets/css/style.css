@@ -50,11 +50,15 @@ i {
 .footer {
   background-color: rgba(245, 245, 245, 0.315);
 }
-/* @media screen and (max-width: 1036px), (min-width: 500px) {
+
+/*Media query for responsiveness*/
+@media all and (max-width: 1036px) and (min-width: 500px) {
   body {
     background-size: 200px 150px;
   }
   .create-form {
-    padding: auto;
+    padding: 1rem 5rem;
+    width: max-content;
+    margin: 3rem 6rem;
   }
-} */
+}
