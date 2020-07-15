@@ -6,10 +6,12 @@ body {
   background-position: right bottom;
   background-repeat: no-repeat;
 }
+
 .jumbotron {
   background-color: rgba(245, 245, 245, 0.315);
   font-family: "Indie Flower", cursive;
   text-align: center;
+  padding-bottom: 0.5rem;
 }
 
 h2 {
@@ -19,10 +21,12 @@ h2 {
 h5 {
   text-align: left;
   font-family: "Kaushan Script", cursive;
-  margin-top: 0.5rem;
   padding: 0rem 6rem;
 }
-
+h6 {
+  font-family: "Indie Flower", cursive;
+  text-align: center;
+}
 .create-form {
   margin: 3rem 18rem;
   border: groove 0.5em orange;
@@ -41,6 +45,10 @@ form {
 }
 i {
   color: black;
+}
+
+.footer {
+  background-color: rgba(245, 245, 245, 0.315);
 }
 /* @media screen and (max-width: 1036px), (min-width: 500px) {
   body {
