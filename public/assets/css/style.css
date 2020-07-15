@@ -2,7 +2,7 @@ body {
   box-sizing: border-box;
   background-color: wheat;
   background-image: url(../img/burger.png);
-  background-size: 400px 300px;
+  background-size: 450px 350px;
   background-position: right bottom;
   background-repeat: no-repeat;
 }
@@ -15,20 +15,30 @@ body {
 
 h2,
 h3 {
-  /* text-align: center; */
-  font-family: "Roboto", sans-serif;
+  text-align: left;
+  font-family: "Kaushan Script", cursive;
+}
+h5 {
+  text-align: left;
+  font-family: "Kaushan Script", cursive;
+  margin-top: 0.5rem;
 }
 
 .create-form {
+  margin: 3rem 18rem;
+  border: groove 0.5em orange;
+  border-radius: 2em;
   width: fit-content;
+  padding: 1rem 2rem;
 }
-/* .row {
-  text-align: center;
-} */
 
+form {
+  margin-top: 4rem;
+}
 .list-group-item {
   background-color: rgba(245, 245, 245, 0);
   border: transparent;
+  text-align: left;
 }
 
 /* @media {
