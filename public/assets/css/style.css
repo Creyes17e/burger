@@ -7,21 +7,20 @@ body {
   background-repeat: no-repeat;
 }
 .jumbotron {
-  display: block;
-  background-color: rgba(245, 245, 245, 0);
+  background-color: rgba(245, 245, 245, 0.315);
   font-family: "Indie Flower", cursive;
   text-align: center;
 }
 
-h2,
-h3 {
-  text-align: left;
+h2 {
+  padding: 0rem 3rem;
   font-family: "Kaushan Script", cursive;
 }
 h5 {
   text-align: left;
   font-family: "Kaushan Script", cursive;
   margin-top: 0.5rem;
+  padding: 0rem 6rem;
 }
 
 .create-form {
@@ -38,11 +37,16 @@ form {
 .list-group-item {
   background-color: rgba(245, 245, 245, 0);
   border: transparent;
-  text-align: left;
+  padding: 0.5rem 3rem;
 }
-
-/* @media {
+i {
+  color: black;
+}
+/* @media screen and (max-width: 1036px), (min-width: 500px) {
   body {
     background-size: 200px 150px;
+  }
+  .create-form {
+    padding: auto;
   }
 } */
