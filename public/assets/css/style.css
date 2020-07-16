@@ -48,6 +48,7 @@ i {
 }
 
 .footer {
+  padding: 0.3rem;
   background-color: rgba(245, 245, 245, 0.315);
 }
 
@@ -60,5 +61,13 @@ i {
     padding: 1rem 5rem;
     width: max-content;
     margin: 3rem 6rem;
+  }
+  h6 {
+    font-family: "Indie Flower", cursive;
+    text-align: center;
+    font-size: 25px;
+  }
+  .footer {
+    padding: 2rem 0rem;
   }
 }
